@@ -19,9 +19,9 @@ _Por ejemplo, si quieres un volumen de 25 GB, escribe lo siguiente en la termina
 aws ec2 describe-volumes --filters Name=attachment.instance-id,Values=$(curl -s http://169.254.169.254/latest/meta-data/instance-id) --query "Volumes[*].{ID:VolumeId,Size:Size}" --output table
 ```
 
-Verás la ID del volumen y su tamaño actualizado en la tabla de salida:
+_Verás la ID del volumen y su tamaño actualizado en la tabla de salida:_
 ![ebs_volumen](https://user-images.githubusercontent.com/126183973/225895372-f357bd34-a385-4440-a8b3-15c08572c555.JPG)
 
-👍 _También podriamos usar el comando **df -h** para visualizar la lista de los sistemas de archivos montados actualmente, junto con información sobre el espacio utilizado y disponible en cada uno de ellos._
+👍 _También podrías usar el comando **df -h** para visualizar la lista de los sistemas de archivos montados actualmente, junto con información sobre el espacio utilizado y disponible en cada uno de ellos._
 
 ![ebs_volumen2](https://user-images.githubusercontent.com/126183973/225895385-d179cb60-329d-4d4f-b2b1-a08b69eb849f.JPG)
