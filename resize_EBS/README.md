@@ -5,10 +5,8 @@
 2. Abrir una terminal y navegar hasta la carpeta donde guardaste el script.
 3. Ejecutar el script y especificar el tamaño deseado del volumen como argumento. 
 
-_Por ejemplo, si quieres un volumen de 50 GB, escribe lo siguiente en la terminal y presiona Enter:_
-
-
-<img src="https://user-images.githubusercontent.com/126183973/225883892-4e2c5226-4e06-44c1-8c5c-a492698408db.png)" width="178" height="113">
+_Por ejemplo, si quieres un volumen de 50 GB, escribe ./script.sh 50 en la terminal y presiona Enter:_
+- text in red
 
 4. Si no se especifica ningún tamaño, el script utilizará el tamaño predeterminado de 20 GB.
 5. El script redimensionará el volumen de EBS especificado y ajustará el sistema de archivos para aprovechar el espacio adicional. Esto puede tardar unos minutos.
