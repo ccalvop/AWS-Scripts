@@ -17,3 +17,9 @@ _Por ejemplo, si quieres un volumen de 25 GB, escribe lo siguiente en la termina
 
 Verás la ID del volumen y su tamaño actualizado en la tabla de salida:
 ![ebs_volumen](https://user-images.githubusercontent.com/126183973/225885155-9a275792-833e-423f-b69c-636fe72581a8.JPG)
+
+También podriamos usar el comando
+```
+df -h
+```
+para visualizar una lista de los sistemas de archivos montados actualmente, junto con información sobre el espacio utilizado y disponible en cada uno de ellos.
