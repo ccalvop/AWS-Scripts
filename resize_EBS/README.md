@@ -6,7 +6,7 @@
 3. Ejecutar el script y especificar el tamaño deseado del volumen como argumento. 
 
 _Por ejemplo, si quieres un volumen de 50 GB, escribe ./script.sh 50 en la terminal y presiona Enter:_
-```diff
+```
 - text in red
 ```
 
