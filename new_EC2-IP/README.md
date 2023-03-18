@@ -17,3 +17,7 @@ instrucciones para ejecutar el script:
 7. Verifica que la dirección IP se haya actualizado correctamente ejecutando el comando ifconfig.
 
 Debes tener los permisos necesarios para modificar la dirección IP de la instancia. También de haber ingresado correctamente la nueva dirección IP al ejecutar el script.
+
+El script modifica la dirección IP privada de la instancia EC2, no la dirección IP pública. Si necesitas modificar la dirección IP pública, tendrás que hacerlo desde la consola de AWS o mediante la API de AWS.
+
+> otro script interesante: AWS CLI para verificar qué recursos de AWS están asociados con una instancia EC2 determinada
