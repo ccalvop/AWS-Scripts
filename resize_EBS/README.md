@@ -1,7 +1,7 @@
 ![script](https://user-images.githubusercontent.com/126183973/225883982-18978cde-07ae-4c8f-b980-fe1e08cc1256.png)
 
 ## **Resize EBS: Cambiar el tamaño de un volumen de EBS en una instancia de EC2 en ejecución**
-Instrucciones
+### Instrucciones
 
 1. Descargar el script y guardarlo en una carpeta de tu instancia de Amazon EC2.
 2. Abrir una terminal y navegar hasta la carpeta donde guardaste el script.
